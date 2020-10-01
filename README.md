@@ -9,20 +9,20 @@
     * AirportID (Foreign Key)
     * PlaneID (Foreign Key)
     * DepartureTime
-* Plane
+* Plane (літак)
     * PlaneID (Primary Key)
     * PlaneType
     * Capacity
-* Passenger
+* Passenger (пасажир)
     * PassengerID (Primary Key)
     * FirstName
     * LastName
     * BirthDate
-* Airport
+* Airport (аеропорт)
     * AirportID (Primary Key)
     * AirportName
     * Country
-* Reservation
+* Reservation (бронювання)
     * ReservationID (Primary Key)
     * FlightID (Foreign Key)
     * PassengerID (Foreign Key)
